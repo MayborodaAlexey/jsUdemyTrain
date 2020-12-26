@@ -38,20 +38,52 @@
 
 // console.log(isChecked || !isClose);
 
-const numberOfFilms = +prompt("how much films did you see?");
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  private: false,
-};
+// const numberOfFilms = +prompt("how much films did you see?");
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   private: false,
+// };
 
-const a = prompt("latest seen movie?", ""),
-  b = prompt("what rating you got?", ""),
-  c = prompt("latest seen movie?", ""),
-  d = prompt("what rating you got?", "");
+// const a = prompt("latest seen movie?", ""),
+//   b = prompt("what rating you got?", ""),
+//   c = prompt("latest seen movie?", ""),
+//   d = prompt("what rating you got?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-console.log(personalMovieDB);
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+// console.log(personalMovieDB, numberOfFilms);
+
+// const numberOfFilms = prompt("how much films did you see?");
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   private: false,
+// };
+
+// for (let i = 0; i < 2; i++) {
+//   const a = prompt("latest seen movie?", ""),
+//     b = prompt("what rating you got?", "");
+//   if (a != null && b != null && (a != ``) & (b != ``) && a.length < 50) {
+//     personalMovieDB.movies[a] = b;
+//     console.log("done");
+//   } else {
+//     console.log("err");
+//     i--;
+//   }
+// }
+
+// if (personalMovieDB.count < 10) {
+//   console.log("not a cimena lover");
+// } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//   console.log("classic watcher");
+// } else if (personalMovieDB.count >= 30) {
+//   console.log("cinemaMan");
+// } else {
+//   console.log("error");
+// }
+// console.log(personalMovieDB);
